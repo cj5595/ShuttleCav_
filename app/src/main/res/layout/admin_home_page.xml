@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.10" />
+        app:layout_constraintGuide_percent="0.10123119" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -87,7 +87,6 @@
             android:id="@+id/imageView3"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:padding="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -101,8 +100,8 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/imageView3"
-            app:layout_constraintTop_toTopOf="@+id/imageView3" />
+            app:layout_constraintBottom_toTopOf="@+id/guideline15"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3" />
 
         <TextView
             android:id="@+id/textView6"
@@ -110,10 +109,16 @@
             android:layout_height="0dp"
             android:text="ADMINISTRATOR 1"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            android:textSize="16sp"
             app:layout_constraintEnd_toStartOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -132,7 +137,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -146,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:text="18"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="16dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView8"
@@ -169,7 +174,7 @@
                 android:layout_marginStart="8dp"
                 android:text="ABC123"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="16dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView7"
@@ -191,12 +196,12 @@
                 android:layout_height="wrap_content"
                 android:text="De la Cruz"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="16dp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView6"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.521"
-                android:textStyle="bold" />
+                app:layout_constraintVertical_bias="0.521" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -230,15 +235,21 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline9">
 
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="125dp" />
+
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="CARMONA ESTATES"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView5"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -247,11 +258,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="WALTERMART CARMONA"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView5" />
 
             <TextView
@@ -260,10 +270,10 @@
                 android:layout_height="wrap_content"
                 android:text="01 Jan 25 07:00"
                 android:textAlignment="textEnd"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="italic"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView5"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
@@ -272,9 +282,9 @@
                 android:layout_height="wrap_content"
                 android:text="01 Jan 25 06:00"
                 android:textAlignment="textEnd"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="italic"
-                app:layout_constraintEnd_toStartOf="@+id/imageView5"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -283,9 +293,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/line_segment_icon"
-                tools:layout_editor_absoluteX="129dp" />
+                app:srcCompat="@drawable/line_segment_icon" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -304,7 +314,7 @@
                 android:text="Latest trip"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -455,12 +465,21 @@
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.96" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton8"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:clickable="true"
         android:foreground="@drawable/nfc_icon"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline8"
