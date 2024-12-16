@@ -133,7 +133,7 @@
             android:background="@drawable/background_edittext"
             android:ems="10"
             android:hint="Password"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="24sp"
