@@ -98,7 +98,7 @@
             android:layout_height="0dp"
             android:text="Welcome, Admin!"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="24dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/guideline15"
             app:layout_constraintEnd_toStartOf="@+id/imageView3" />
@@ -109,7 +109,7 @@
             android:layout_height="0dp"
             android:text="ADMINISTRATOR 1"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="16dp"
             app:layout_constraintEnd_toStartOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -240,14 +240,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintGuide_begin="125dp" />
+                app:layout_constraintGuide_begin="130dp" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="CARMONA ESTATES"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView5"
@@ -258,7 +258,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="WALTERMART CARMONA"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -270,7 +270,7 @@
                 android:layout_height="wrap_content"
                 android:text="01 Jan 25 07:00"
                 android:textAlignment="textEnd"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textStyle="italic"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -282,7 +282,7 @@
                 android:layout_height="wrap_content"
                 android:text="01 Jan 25 06:00"
                 android:textAlignment="textEnd"
-                android:textSize="14sp"
+                android:textSize="14dp"
                 android:textStyle="italic"
                 app:layout_constraintEnd_toStartOf="@+id/guideline2"
                 app:layout_constraintStart_toStartOf="parent"
@@ -362,7 +362,8 @@
                     android:layout_height="40dp"
                     android:text="Manage Users"
                     android:textAlignment="center"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -383,7 +384,8 @@
                     android:layout_height="40dp"
                     android:text="Transaction Logs"
                     android:textAlignment="center"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -404,7 +406,8 @@
                     android:layout_height="40dp"
                     android:text="Credit Management"
                     android:textAlignment="center"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
             </LinearLayout>
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
