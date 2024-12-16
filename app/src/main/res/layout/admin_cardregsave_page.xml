@@ -44,7 +44,7 @@
             android:text="Account Registration"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="24dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,7 @@
             android:padding="4dp"
             android:text="NFC tag id:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
@@ -82,7 +82,7 @@
             android:padding="4dp"
             android:text="Balance:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView40" />
 
@@ -93,7 +93,7 @@
             android:padding="4dp"
             android:text="q1w2e3r4t5"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView40"
             app:layout_constraintStart_toEndOf="@+id/textView40"
             app:layout_constraintTop_toTopOf="@+id/textView40" />
@@ -105,7 +105,7 @@
             android:padding="4dp"
             android:text="₱ 50.00"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView41"
             app:layout_constraintStart_toEndOf="@+id/textView41"
             app:layout_constraintTop_toTopOf="@+id/textView41" />
@@ -117,7 +117,7 @@
             android:padding="4dp"
             android:text="Surname:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
@@ -129,7 +129,7 @@
             android:text="ACCOUNT INFORMATION"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="24sp"
+            android:textSize="24dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -142,7 +142,7 @@
             android:padding="4dp"
             android:text="Surname:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
@@ -153,7 +153,7 @@
             android:padding="4dp"
             android:text="Brillantes"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView28"
             app:layout_constraintStart_toEndOf="@+id/textView28"
             app:layout_constraintTop_toTopOf="@+id/textView28" />
@@ -165,7 +165,7 @@
             android:padding="4dp"
             android:text="Firstname:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
@@ -176,7 +176,7 @@
             android:padding="4dp"
             android:text="Airajay"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView30"
             app:layout_constraintStart_toEndOf="@+id/textView30"
             app:layout_constraintTop_toBottomOf="@+id/textView28" />
@@ -188,7 +188,7 @@
             android:padding="4dp"
             android:text="Middlename:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
@@ -199,7 +199,7 @@
             android:padding="4dp"
             android:text="De Guzman"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView32"
             app:layout_constraintStart_toEndOf="@+id/textView32"
             app:layout_constraintTop_toBottomOf="@+id/textView30" />
@@ -211,7 +211,7 @@
             android:padding="4dp"
             android:text="Age:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
@@ -222,7 +222,7 @@
             android:padding="4dp"
             android:text="22"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView34"
             app:layout_constraintStart_toEndOf="@+id/textView34"
             app:layout_constraintTop_toTopOf="@+id/textView34" />
@@ -234,7 +234,7 @@
             android:padding="4dp"
             android:text="Gender:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
@@ -245,7 +245,7 @@
             android:padding="4dp"
             android:text="Female"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView36"
             app:layout_constraintStart_toEndOf="@+id/textView36"
             app:layout_constraintTop_toBottomOf="@+id/textView34" />
@@ -257,7 +257,7 @@
             android:padding="4dp"
             android:text="Phone number:"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
@@ -268,7 +268,7 @@
             android:padding="4dp"
             android:text="09090909090"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView38"
             app:layout_constraintStart_toEndOf="@+id/textView38"
             app:layout_constraintTop_toTopOf="@+id/textView38" />
@@ -282,7 +282,7 @@
         android:background="@drawable/background_btn"
         android:text="CONFIRM REGISTRATION"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline11" />
@@ -296,7 +296,7 @@
         android:background="@drawable/background_btn"
         android:text="BACK"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
